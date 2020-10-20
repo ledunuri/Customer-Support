@@ -5,6 +5,7 @@ import com.uncc.ticket.model.UsersEntity;
 import com.uncc.ticket.repository.TicketRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.ui.Model;
 
 import javax.transaction.Transactional;
 import java.util.List;
@@ -40,4 +41,10 @@ public class TicketService {
     public void deleteById(Long id) {
         ticketRepository.deleteById(id);
     }
+
+     {
+    }
+
+
+
 }
